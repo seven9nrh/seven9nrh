@@ -25,7 +25,7 @@ jobs:
           plugin_topics_mode: icons
       - uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.isocalendar.halfyear.svg
+          filename: metrics.plugin.isocalendar.fullyear.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_isocalendar: yes
