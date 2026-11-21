@@ -1,0 +1,16 @@
+{
+  "name": "seven9nrh-profile",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "tsx src/main.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test src/*.test.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "fast-xml-parser": "^5.12.1",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}

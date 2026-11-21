@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="140" viewBox="0 0 420 140" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" role="img" aria-label="public-apis/public-apis">
+<defs>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3572A5"/><stop offset="1" stop-color="#3572A5" stop-opacity="0.15"/></linearGradient>
+<clipPath id="r"><rect x="0.5" y="0.5" width="419" height="139" rx="12"/></clipPath>
+</defs>
+<rect x="0.5" y="0.5" width="419" height="139" rx="12" fill="#ffffff" stroke="#d0d7de"/>
+<rect x="0" y="0" width="420" height="5" fill="url(#g)" clip-path="url(#r)"/>
+<text x="20" y="34" font-size="12" fill="#656d76">public-apis</text>
+<text x="20" y="56" font-size="17" font-weight="700" fill="#1f2328">public-apis</text>
+<text x="400" y="40" font-size="22" font-weight="800" text-anchor="end" fill="#3572A5" fill-opacity="0.9">#1</text>
+<text x="20" y="82" font-size="12" fill="#656d76">A collective list of free APIs</text>
+<circle cx="26" cy="120" r="5" fill="#3572A5"/>
+<text x="38" y="124" font-size="12" fill="#1f2328">Python</text>
+<g transform="translate(348,112) scale(0.9)"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z" fill="#e3b341"/></g>
+<text x="400" y="124" font-size="13" font-weight="700" text-anchor="end" fill="#1f2328">501k</text>
+</svg>
