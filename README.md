@@ -7,7 +7,7 @@
 
 ## Skills
 
-<img src="https://cdn.simpleicons.org/openjdk" alt="Java" title="Java" height="40" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/springboot" alt="Spring Boot" title="Spring Boot" height="40" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/typescript" alt="TypeScript" title="TypeScript" height="40" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/javascript" alt="JavaScript" title="JavaScript" height="40" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/react" alt="React" title="React" height="40" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/claude" alt="Claude Code" title="Claude Code" height="40" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/githubactions" alt="CI/CD (GitHub Actions)" title="CI/CD (GitHub Actions)" height="40" />
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/openjdk/e6edf3"><img src="https://cdn.simpleicons.org/openjdk" alt="Java" title="Java" height="40" /></picture>&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/springboot" alt="Spring Boot" title="Spring Boot" height="40" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/typescript" alt="TypeScript" title="TypeScript" height="40" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/javascript" alt="JavaScript" title="JavaScript" height="40" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/react" alt="React" title="React" height="40" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/claude" alt="Claude Code" title="Claude Code" height="40" />&nbsp;&nbsp;<img src="https://cdn.simpleicons.org/githubactions" alt="CI/CD (GitHub Actions)" title="CI/CD (GitHub Actions)" height="40" />
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/skills-dark.svg">

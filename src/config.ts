@@ -5,6 +5,8 @@ export interface Skill {
   level: Level;
   /** simple-icons slug. Icons are shown only for "main" skills that have one. */
   icon?: string;
+  /** Icon color (hex, no #) for dark mode, when the brand color is too dark to see. */
+  iconDark?: string;
 }
 
 export interface SkillGroup {
@@ -23,7 +25,7 @@ export const config = {
     {
       title: "Application development",
       skills: [
-        { name: "Java", level: "main", icon: "openjdk" },
+        { name: "Java", level: "main", icon: "openjdk", iconDark: "e6edf3" },
         { name: "Spring Boot", level: "main", icon: "springboot" },
         { name: "TypeScript", level: "main", icon: "typescript" },
         { name: "JavaScript", level: "main", icon: "javascript" },

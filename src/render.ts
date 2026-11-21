@@ -26,7 +26,13 @@ export function renderSkills(groups: SkillGroup[]): string {
   const icons = groups
     .flatMap((g) => g.skills)
     .filter((s) => s.level === "main" && s.icon)
-    .map((s) => `<img src="https://cdn.simpleicons.org/${encodeURIComponent(s.icon!)}" alt="${escHtml(s.name)}" title="${escHtml(s.name)}" height="40" />`)
+    .map((s) => {
+      const base = `https://cdn.simpleicons.org/${encodeURIComponent(s.icon ?? "")}`;
+      const img = `<img src="${base}" alt="${escHtml(s.name)}" title="${escHtml(s.name)}" height="40" />`;
+      return s.iconDark
+        ? `<picture><source media="(prefers-color-scheme: dark)" srcset="${base}/${encodeURIComponent(s.iconDark)}">${img}</picture>`
+        : img;
+    })
     .join("&nbsp;&nbsp;");
   const chips = `<picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/skills-dark.svg">

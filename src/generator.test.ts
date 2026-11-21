@@ -56,6 +56,9 @@ test("skills: icons only for main skills", () => {
   const out = renderSkills(config.skills);
   assert.match(out, /simpleicons\.org\/typescript/);
   assert.doesNotMatch(out, /alt="Go"/);
+  // Dark brand colors get a light variant in dark mode.
+  assert.match(out, /<source media="\(prefers-color-scheme: dark\)" srcset="https:\/\/cdn\.simpleicons\.org\/openjdk\/e6edf3">/);
+  assert.doesNotMatch(out, /typescript\/[0-9a-f]{6}/);
 });
 
 test("3D graph: valid svg for both themes", () => {
